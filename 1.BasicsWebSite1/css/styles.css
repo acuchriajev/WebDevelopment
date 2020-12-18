@@ -1,0 +1,21 @@
+/*
+  Created by       : Aleksandr Cuchriajev
+  Company website  : http://acoptex.lt
+  Date      	   : 05.01.2020
+
+*/
+
+/* GENERAL ======================================== */
+
+body,
+html {
+    background-color: lightcyan;
+}
+
+h2 {
+    color: green;
+}
+
+#copyright {
+    color: blue;
+}
