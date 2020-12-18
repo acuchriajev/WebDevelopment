@@ -1,0 +1,74 @@
+/*
+  Created by       : Aleksandr Cuchriajev
+  Company website  : http://acoptex.lt
+  Date      	   : 07.01.2020
+
+*/
+
+/* GENERAL ======================================== */
+html,
+body {
+    background-color: #B3B3B3;
+    font-size: 120%;
+    margin: 4%;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #666666;
+    background-color: #00B7ea;
+}
+
+/* HEADER SECTION ================================= */
+header {
+    background-color: #666666;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    font-variant: small-caps;
+    font-size: 150%;
+    font-family: Arial, "Time New Roman", serif;
+}
+
+/* MAIN SECTION ================================= */
+
+section {
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+
+details {
+    font-style: italic;
+}
+
+summary {
+    font-style: normal;
+}
+
+/* FOOTER SECTION ================================= */
+footer {
+    background-color: #666666;
+    clear: both;
+    height: 165px;
+}
+
+img {
+    margin: 20px 10px 0 20px;
+    width: 125px;
+    height: 125px;
+}
+
+.author {
+    float: right;
+    padding-top: 45px;
+    /*line-height: 125px;*/
+    padding-right: 15px;
+}

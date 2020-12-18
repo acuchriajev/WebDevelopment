@@ -1,0 +1,107 @@
+/*
+  Created by       : Aleksandr Cuchriajev
+  Company website  : http://acoptex.lt
+  Date      	   : 10.01.2020
+
+*/
+
+/* GENERAL ======================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica new, Arial;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+h1,
+h2 {
+    color: #069a11;
+
+}
+
+/* HEADER SECTION ======================================== */
+header {
+    text-align: center;
+}
+
+/* MAIN SECTION ======================================== */
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    position: relative;
+    margin-right: 10px;
+    padding: 10px;
+    float: left;
+    width: 70%;
+}
+
+.date {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    font-weight: 700;
+}
+
+aside {
+    margin-left: 10px;
+}
+
+.sidebar-text {
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 10px 10px 0 10px;
+}
+
+.section-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FOOTER SECTION ======================================== */
+footer {
+    border-top: 1px solid #f35897;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer img {
+    float: left;
+    margin: 15px 0 10px 10px;
+    width: 100px;
+
+}
+
+#author {
+    float: left;
+    font-size: 22px;
+    padding: 45px 0 0 10px;
+}
