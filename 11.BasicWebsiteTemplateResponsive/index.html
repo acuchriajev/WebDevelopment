@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+    <title>11BasicWebsiteTemplate</title>
+    <!--[if IE]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu" id="dropdownClick">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="menu-right"><a href="#signin">Sign In</a></li>
+                <li class="menu-right"><a href="#signup">Sign Up</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section-1-gradient">
+            <div class="row">
+                <div class="col-6">
+                    <div class="leftside-col">
+                        <h1 class="large">Acoptex.lt</h1>
+                        <h1 class="large">Made for Developers</h1>
+                    </div>
+                    <form method="post" action="mail.php">
+                        <div class="leftside-col">
+                            <label for="username">Username</label>
+                            <input class="inputbox" id="username" name="username" type="text" placeholder="Username">
+                            <label for="password">Password</label>
+                            <input class="inputbox" name="password" id="password" type="password" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div class="rightside-col">
+                        <div class="videoContainer">
+                            <iframe width="560" height="315" src="https://www.youtube.com/" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>2020 &copy; . All rights resesrved. Created by <a href="htpp://acoptex.lt">Acoptex.lt</a></p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

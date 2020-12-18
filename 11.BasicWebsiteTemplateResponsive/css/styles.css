@@ -1,0 +1,245 @@
+/*
+  Created by       : Aleksandr Cuchriajev
+  Company website  : http://acoptex.lt
+  Date      	   : 11.01.2020
+
+*/
+
+/* GENERAL ======================================== */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1;
+
+}
+
+nav,
+header,
+footer,
+label {
+    display: block;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+h1.large {
+    color: #fff;
+    font-size: 56px;
+    line-height: 70px;
+}
+
+iframe {
+    margin: 0;
+}
+
+/* HEADER SECTION ======================================== */
+
+/* NAV BAR ======================================== */
+nav {
+    width: 100%;
+}
+
+nav ul {
+    background-color: #eee;
+    overflow: hidden;
+}
+
+ul.menu li {
+    list-style: none;
+    float: left;
+}
+
+ul.menu li.menu-right {
+    float: right;
+}
+
+ul.menu li a:link {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.menu li a:hover {
+    background-color: #0080ff;
+    color: #fff;
+}
+
+ul.menu li.dropdownIcon {
+    display: none;
+}
+
+/* MAIN SECTION ======================================== */
+
+section {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.section-1-gradient {
+    background: #076DFF;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#076DFF, #65a5ff);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#076DFF, #65a5ff);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#076DFF, #65a5ff);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#076DFF, #65a5ff);
+    /* Standard syntax */
+}
+
+input.inputbox {
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+}
+
+form label {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+div.leftside-col {
+    margin-left: 20%;
+}
+
+div.rightSide-col {
+    margin-left: 15%;
+}
+
+/* FOOTER SECTION ======================================== */
+footer {
+    clear: both;
+}
+
+/* MOBILE ======================================== */
+
+@media screen and (max-width: 680px) {
+
+    /*    section1   */
+    ul.menu li:not(:nth-child(1)) {
+        display: none;
+    }
+
+    ul.menu li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.menu.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.menu.responsive {
+        position: relative;
+    }
+
+    ul.menu.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.menu.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    /*  section2   */
+    .col-7,
+    .col-6,
+    .col-5,
+    .col-4 {
+        width: 100%;
+    }
+
+    div.leftside-col,
+    div.rightside-col {
+        margin: 5%;
+    }
+
+    input.inputbox {
+        width: 435px;
+    }
+
+    .videoContainer iframe {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }

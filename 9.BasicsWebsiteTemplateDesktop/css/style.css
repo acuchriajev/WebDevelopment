@@ -1,0 +1,105 @@
+/*
+  Created by       : Aleksandr Cuchriajev
+  Company website  : http://acoptex.lt
+  Date      	   : 11.01.2020
+
+*/
+
+/* GENERAL ======================================== */
+
+
+body {
+    background: #666;
+    color: #fff;
+    font-family: arial;
+    line-height: 1.4em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+#container {
+    background: #333;
+    width: 980px;
+    margin: 30px auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+/* HEADER SECTION ======================================== */
+nav {
+    height: 40px;
+    background: #666;
+}
+
+nav ul {
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+}
+
+nav .active {
+    font-weight: bold;
+    color: #000;
+}
+
+/* MAIN SECTION ======================================== */
+main {
+    float: left;
+    width: 60%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    background: #666;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+/* FOOTER SECTION ======================================== */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #666;
+    margin-top: 30px;
+    clear: both;
+}
+
+.services li {
+    border-bottom: 2px #666 dashed;
+    padding-bottom: 20px;
+}
+
+.services a {
+    background: #666;
+    padding: 10px;
+}
+
+input,
+textarea {
+    font-family: arial;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #666;
+    color: #fff;
+    border-style: none;
+}
