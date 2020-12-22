@@ -1,2 +1,2 @@
 # WebDevelopment
-Projects on web developement
+Projects on web development
